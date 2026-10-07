@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.example.learncompose.screen.AlertDialogAndPopUp
+import com.example.learncompose.screen.ToastAndSnackBar
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +20,13 @@ class MainActivity : ComponentActivity() {
             // CardLayout()
             // DividerLayout()
             // StateManageMent()
-            AlertDialogAndPopUp()
+            //   AlertDialogAndPopUp()
+            //   LoginScreen(navController)
+            //   NavGraph()
+            //  LazyColumnAndLazyRowLayout()
+            // ScaffoldLayout()
+            //  NavBarGraph()
+            ToastAndSnackBar()
         }
     }
 }
